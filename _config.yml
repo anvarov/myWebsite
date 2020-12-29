@@ -1,39 +1,39 @@
 # Site
-repository: sproogen/resume-theme
+repository: anvarov/myWebsite
 favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Akmal Akmal
+title: Software Engineer
+email: aanvrv@gmail.com
+website: www.github.com/anvarov
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+twitter_username: akmalanvaroff
+github_username:  anvarov
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
 instagram_username: jameswgrant
-linkedin_username: jameswgrant
+linkedin_username: anvarov
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+# youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
 additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -46,31 +46,34 @@ additional_links:
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/square.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hi I'm Akmal Anvarov, App Academy student, Interested in information technologies, web/software development. Currently making nice projects and looking for a job.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  I am most skilled in: <mark>Pyhton</mark>, <mark>Javascript</mark>, <mark>SQL</mark>, and <mark>AWS</mark> 
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+        title: Vacation Finder 
+        # link: github.com/anvarov/vacation-finder-flask
         # link_text: Project Website
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title:  anvarov/vacation-finder-flask
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+            url: github.com/anvarov/vacation-finder-flask
+          - title: Live demo
+            icon: fas fa-desktop
+            url: github.com/anvarov/vacation-finder-flask
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          Web application for searching and managing vacation packages
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          App allows users to search and save vacation packages to their profile. Users with admin permission can do CRUD operations on vacation packages. App also has admin dashboard which shows latest business data about vacation packages, that admins have listed.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
