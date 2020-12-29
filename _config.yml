@@ -80,7 +80,7 @@ content:
     content:
       - layout: left
         title: App Academy
-        link: boringcompany.com
+        link: appacademy.io
         # link_text: boringcompany.com
         sub_title: Student
         caption: July 2020 - December 2020
@@ -92,7 +92,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Tashkent 
+        title: Tashkent Financial Institute
         caption: 2012 - 2016
         sub_title: BSc Finance
         quote: >
