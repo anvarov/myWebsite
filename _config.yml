@@ -50,7 +50,8 @@ about_profile_image: images/square.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi I'm Akmal Anvarov, App Academy student, Interested in information technologies, web/software development. Currently making nice projects and looking for a job.
 
-  I am most skilled in: <mark>Pyhton</mark>, <mark>Javascript</mark>, <mark>SQL</mark>, and <mark>AWS</mark> 
+  I am most skilled in: 
+  <mark>Pyhton</mark>, <mark>Javascript</mark>, <mark>SQL</mark>, and <mark>AWS</mark> 
 
 content:
   - title: Projects # Title for the section
@@ -79,6 +80,32 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: Amazon FC
+        link: appacademy.io
+        # link_text: boringcompany.com
+        sub_title: Associate/Trainer
+        caption: May 2017 - Currently
+        quote: >
+          San Marcos, TX
+        description: | # this will include new lines to allow paragraphs
+          Conducted standard training, coaching, troubleshooting and performance evaluations, re-training and cross-training associates how to use computer systems and be efficient, as needed.
+          Partnered with Area Managers to provide coaching of working standards for bottom performers which led to increasing stow rate of 100
+      - layout: left
+        title: Hamkorbank JSC
+        link: hamkorbank.uz
+        # link_text: boringcompany.com
+        sub_title: Credit Manager
+        caption: Aug 2016 - Oct 2016
+        quote: >
+          Tashkent, Uzbekistan
+        description: | # this will include new lines to allow paragraphs
+         Researched and evaluated clients’ creditworthiness using credit scoring software.
+         Approved or rejected loan requests, based on credibility and potential revenues and losses to keep non-performance loan ratio low of the business.
+         Participated in creating credit scoring models to predict default risks on loans
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
         title: App Academy
         link: appacademy.io
         # link_text: boringcompany.com
@@ -87,10 +114,7 @@ content:
         quote: >
           App Academy 24 week software engineer course
         description: | # this will include new lines to allow paragraphs
-          Did a lot of pair programming, worked in a team, learned teamwork skills, OOP (not finished)
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
+          Did a lot of pair programming, worked in a team, learned teamwork skills, object oriented programming concepts
       - layout: left
         title: Tashkent Financial Institute
         caption: 2012 - 2016
@@ -100,7 +124,6 @@ content:
           Tashkent Institute of Finance is considered to be one of the most prestigious universities of Uzbekistan.
         description: | # this will include new lines to allow paragraphs
           During my time at TFI I learnt finance, banking skills. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
